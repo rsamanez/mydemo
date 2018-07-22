@@ -8,10 +8,10 @@ go build
 
 URL:   
 GET http://localhost:12345/people   
-POST localhost:12345/people/3   
+POST http://localhost:12345/people/3   
       body json:   
             {   
               "firstname": "Ronaldo"",   
               "lastname":"El Trome"   
             }   
-DELETE localhost:12345/people/3   
+DELETE http://localhost:12345/people/3   
