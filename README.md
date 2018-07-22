@@ -7,11 +7,11 @@ go build
 ./mydemo.exe
 
 URL:
-GET http://localhost:12345/people
-POST localhost:12345/people/3
-      body json:
-            {
-              "firstname": "Ronaldo"",
-              "lastname":"El Trome"
-            }
-DELETE localhost:12345/people/3
+GET http://localhost:12345/people   
+POST localhost:12345/people/3   
+      body json:   
+            {   
+              "firstname": "Ronaldo"",   
+              "lastname":"El Trome"   
+            }   
+DELETE localhost:12345/people/3   
