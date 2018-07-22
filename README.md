@@ -2,11 +2,11 @@
 
 First steps using GO. testing how to create a simple API Rest
 
-Console Command:
-go build
-./mydemo.exe
+Console Command:   
+go build   
+./mydemo.exe   
 
-URL:
+URL:   
 GET http://localhost:12345/people   
 POST localhost:12345/people/3   
       body json:   
